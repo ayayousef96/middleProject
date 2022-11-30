@@ -1,0 +1,24 @@
+.team1{
+    border: 3px solid white;
+    height: 70vh;
+    width:60vw;
+    
+}
+select , button{
+    border : solid 3px goldenrod;
+    border-radius: 5px;
+    padding:5px;
+    margin :5px;
+}
+.input-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 38, 130);
+    padding: 0.5rem;
+    margin-top: 1.2rem;
+    border-radius: 0.4rem;
+  }
+  

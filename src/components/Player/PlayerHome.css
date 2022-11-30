@@ -1,0 +1,65 @@
+Nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(31, 38, 130);
+    padding: 0.5rem;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+li {
+    list-style: none;
+    text-transform: capitalize;
+    background-color: goldenrod;
+    padding: 0.2rem 0.5rem;
+    margin: auto 0.5rem;
+    border: 0.1rem solid black;
+    border-radius: 4px;
+  }
+li:hover {
+    background-color:white;
+    color: white;
+  }
+li a {
+    text-decoration: none;
+}
+.queens{
+  height: 80vh;
+  width:100vw;
+}
+.team{
+  border: 3px solid white;
+  height: 65vh;
+  width :60vw;
+}
+.playerCard{
+  box-shadow: 0.2rem 0.2rem 0.3rem white;
+  width: max-content;
+  margin: 1rem;
+  display: flex;
+  border-radius: 0.8rem;
+  height: 65vh;
+  border: 0.4rem white solid;
+
+}
+.playerImg{
+  width: 20vw;
+  height: 35vh;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.detailes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.detailes > *{
+  padding: 0.4rem;
+  margin: 0.3rem;
+}

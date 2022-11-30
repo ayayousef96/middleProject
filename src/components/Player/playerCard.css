@@ -1,0 +1,39 @@
+.playerCard{
+    box-shadow: 0.2rem 0.2rem 0.3rem white;
+    width: max-content;
+    margin: 1rem;
+    display: flex;
+    border-radius: 0.8rem;
+    height: 65vh;
+    border: 0.4rem white solid;
+
+}
+.playerImg{
+    width: 20vw;
+    height: 35vh;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.detailes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.detailes > *{
+    padding: 0.4rem;
+    margin: 0.3rem;
+  }
+
+  .details > button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.788);
+    box-shadow: 0.2rem 0.2rem 0.3rem white;
+    border-radius: 0.4rem;
+  }
+  .Input{
+    display: flex;
+    flex-direction: column;
+  }
